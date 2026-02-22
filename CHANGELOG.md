@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-02-23
+
+### Added
+
+- 41 artisan commands for full CLI access to the X API (`plume:me`, `plume:post`, `plume:search`, `plume:home`, etc.)
+- `ResolvesXClient` trait for command authentication
+- `SupportsJsonOutput` trait — `--format=json` support across all list/read commands
+- Banner graphic for README
+- `.claude/skills/plume-usage.md` skill documentation for Claude Code users
+
+### Changed
+
+- Updated README with artisan commands section, banner graphic, and improved intro
+- Updated `composer.json` keywords for better Packagist discoverability
+
+### Fixed
+
+- Removed references to non-existent `composer test:integration` and `test:all` scripts in `CONTRIBUTING.md`
+
 ## [1.0.0] - 2026-02-22
 
 ### Added
@@ -25,4 +44,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PHPStan level 8 compliance
 - Pest v4 test suite
 
+[1.1.0]: https://github.com/jkudish/plume/releases/tag/v1.1.0
 [1.0.0]: https://github.com/jkudish/plume/releases/tag/v1.0.0

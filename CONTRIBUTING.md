@@ -34,9 +34,7 @@ This project uses [Laravel Pint](https://laravel.com/docs/pint) with the `larave
 All new features and bug fixes must include tests. This project uses [Pest](https://pestphp.com/).
 
 ```bash
-composer test              # Unit + Feature tests
-composer test:integration  # Integration tests (requires API credentials)
-composer test:all          # All tests
+composer test    # Run the full test suite
 ```
 
 ## Static Analysis
