@@ -214,7 +214,7 @@ Plume ships 41 artisan commands for full CLI access to the X API. All commands s
 php artisan plume:me
 
 # Post a tweet
-php artisan plume:post "Hello from the CLI!"
+php artisan plume:post --text="Hello from the CLI!"
 
 # Search
 php artisan plume:search "laravel" --max=20
