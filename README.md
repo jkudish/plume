@@ -6,7 +6,7 @@ X (Twitter) API v2 client for Laravel.
 ![Packagist Version](https://img.shields.io/packagist/v/jkudish/plume)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/jkudish/plume)
 ![PHP Version](https://img.shields.io/packagist/php-v/jkudish/plume)
-![License](https://img.shields.io/packagist/l/jkudish/plume)
+![License](https://img.shields.io/github/license/jkudish/plume)
 [![Sponsor](https://img.shields.io/badge/sponsor-♥-ea4aaa)](https://github.com/sponsors/jkudish)
 
 Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, test fakes with semantic assertions, and 15 AI tools for the Laravel AI SDK.
