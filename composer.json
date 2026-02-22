@@ -47,9 +47,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/pest --exclude-group=integration",
-        "test:integration": "vendor/bin/pest --group=integration",
-        "test:all": "vendor/bin/pest",
+        "test": "vendor/bin/pest",
         "phpstan": "vendor/bin/phpstan analyse --memory-limit=1G",
         "lint": "vendor/bin/pint",
         "lint:check": "vendor/bin/pint --test"
