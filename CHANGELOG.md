@@ -19,7 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated README with artisan commands section, banner graphic, and improved intro
 - Updated `composer.json` keywords for better Packagist discoverability
-- Fixed `CONTRIBUTING.md` test command references
+
+### Fixed
+
+- Removed references to non-existent `composer test:integration` and `test:all` scripts in `CONTRIBUTING.md`
 
 ## [1.0.0] - 2026-02-22
 
