@@ -92,9 +92,11 @@ jobs:
           composer update --prefer-dist --no-interaction
 
       - name: Check code style
+        if: matrix.laravel == '12.*'
         run: composer lint:check
 
       - name: Run PHPStan
+        if: matrix.laravel == '12.*'
         run: composer phpstan
 
       - name: Run tests
