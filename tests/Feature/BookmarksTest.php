@@ -50,3 +50,20 @@ it('lists bookmarks', function (): void {
     expect($result->data)->toHaveCount(1)
         ->and($result->data[0]->text)->toBe('Bookmarked post');
 });
+
+it('passes media fields when listing bookmarks', function (): void {
+    Http::fake([
+        'api.x.com/2/users/123/bookmarks*' => Http::response([
+            'data' => [['id' => '1', 'text' => 'Post with photo']],
+            'includes' => [
+                'media' => [['media_key' => '3_abc', 'type' => 'photo', 'url' => 'https://pbs.twimg.com/media/test.jpg']],
+            ],
+            'meta' => ['result_count' => 1],
+        ]),
+    ]);
+
+    bookmarksClient()->bookmarks('123', mediaFields: [\Plume\Enums\MediaField::Url, \Plume\Enums\MediaField::Type]);
+
+    Http::assertSent(fn ($r) => str_contains($r->url(), 'media.fields=url%2Ctype')
+        || str_contains($r->url(), 'media.fields=url,type'));
+});
