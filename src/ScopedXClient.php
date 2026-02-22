@@ -400,6 +400,7 @@ class ScopedXClient
      * @param  list<TweetField>  $tweetFields
      * @param  list<Expansion>  $expansions
      * @param  list<UserField>  $userFields
+     * @param  list<MediaField>  $mediaFields
      * @return PaginatedResult<Post>
      */
     public function bookmarks(
@@ -408,8 +409,9 @@ class ScopedXClient
         array $tweetFields = [],
         array $expansions = [],
         array $userFields = [],
+        array $mediaFields = [],
     ): PaginatedResult {
-        return $this->client->bookmarks($this->resolveUserId(), $maxResults, $paginationToken, $tweetFields, $expansions, $userFields);
+        return $this->client->bookmarks($this->resolveUserId(), $maxResults, $paginationToken, $tweetFields, $expansions, $userFields, $mediaFields);
     }
 
     // ── Follows (userId resolved automatically) ─────────────

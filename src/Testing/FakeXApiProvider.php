@@ -370,9 +370,9 @@ class FakeXApiProvider implements XApiProvider
         $this->record('removeBookmark', [$userId, $tweetId]);
     }
 
-    public function bookmarks(string $userId, int $maxResults = 100, ?string $paginationToken = null, array $tweetFields = [], array $expansions = [], array $userFields = []): PaginatedResult
+    public function bookmarks(string $userId, int $maxResults = 100, ?string $paginationToken = null, array $tweetFields = [], array $expansions = [], array $userFields = [], array $mediaFields = []): PaginatedResult
     {
-        return $this->record('bookmarks', [$userId, $maxResults, $paginationToken, $tweetFields, $expansions, $userFields]) ?? new PaginatedResult(data: [], resultCount: 0);
+        return $this->record('bookmarks', [$userId, $maxResults, $paginationToken, $tweetFields, $expansions, $userFields, $mediaFields]) ?? new PaginatedResult(data: [], resultCount: 0);
     }
 
     // ── Blocks ──────────────────────────────────────────────

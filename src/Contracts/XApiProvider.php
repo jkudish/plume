@@ -380,6 +380,7 @@ interface XApiProvider
      * @param  list<TweetField>  $tweetFields
      * @param  list<Expansion>  $expansions
      * @param  list<UserField>  $userFields
+     * @param  list<MediaField>  $mediaFields
      * @return PaginatedResult<Post>
      */
     public function bookmarks(
@@ -389,6 +390,7 @@ interface XApiProvider
         array $tweetFields = [],
         array $expansions = [],
         array $userFields = [],
+        array $mediaFields = [],
     ): PaginatedResult;
 
     // ── Blocks ──────────────────────────────────────────────

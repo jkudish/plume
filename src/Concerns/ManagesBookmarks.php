@@ -7,6 +7,7 @@ namespace Plume\Concerns;
 use Plume\Data\PaginatedResult;
 use Plume\Data\Post;
 use Plume\Enums\Expansion;
+use Plume\Enums\MediaField;
 use Plume\Enums\TweetField;
 use Plume\Enums\UserField;
 
@@ -28,6 +29,7 @@ trait ManagesBookmarks
      * @param  list<TweetField>  $tweetFields
      * @param  list<Expansion>  $expansions
      * @param  list<UserField>  $userFields
+     * @param  list<MediaField>  $mediaFields
      * @return PaginatedResult<Post>
      */
     public function bookmarks(
@@ -37,10 +39,11 @@ trait ManagesBookmarks
         array $tweetFields = [],
         array $expansions = [],
         array $userFields = [],
+        array $mediaFields = [],
     ): PaginatedResult {
         $query = array_merge(
             ['max_results' => $maxResults],
-            $this->buildFieldQuery($tweetFields, $expansions, $userFields),
+            $this->buildFieldQuery($tweetFields, $expansions, $userFields, $mediaFields),
         );
 
         if ($paginationToken !== null) {
@@ -50,7 +53,7 @@ trait ManagesBookmarks
         $response = $this->http->get("/2/users/{$userId}/bookmarks", $query);
 
         return $this->paginatedPosts($response, fn (string $token): PaginatedResult => $this->bookmarks(
-            $userId, $maxResults, $token, $tweetFields, $expansions, $userFields,
+            $userId, $maxResults, $token, $tweetFields, $expansions, $userFields, $mediaFields,
         ));
     }
 }
