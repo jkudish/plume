@@ -82,8 +82,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-php-${{ matrix.php }}-laravel-${{ matrix.laravel }}-composer-
 
-      - name: Remove PHP 8.4-only dev dependencies
-        if: matrix.php != '8.4'
+      - name: Remove laravel/ai on Laravel 11 (requires PHP 8.4 + Laravel 12)
+        if: matrix.laravel != '12.*'
         run: composer remove laravel/ai --dev --no-interaction --no-update
 
       - name: Install dependencies
