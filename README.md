@@ -217,10 +217,10 @@ php artisan plume:me
 php artisan plume:post --text="Hello from the CLI!"
 
 # Search
-php artisan plume:search "laravel" --max=20
+php artisan plume:search "laravel" --max-results=20
 
 # Your home timeline
-php artisan plume:home --max=10 --format=json
+php artisan plume:home --max-results=10 --format=json
 ```
 
 | Category | Commands |
