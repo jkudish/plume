@@ -6,7 +6,7 @@ X (Twitter) API v2 client for Laravel.
 ![Packagist Version](https://img.shields.io/packagist/v/jkudish/plume)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/jkudish/plume)
 ![PHP Version](https://img.shields.io/packagist/php-v/jkudish/plume)
-![License](https://img.shields.io/packagist/l/jkudish/plume)
+![License](https://img.shields.io/github/license/jkudish/plume)
 [![Sponsor](https://img.shields.io/badge/sponsor-♥-ea4aaa)](https://github.com/sponsors/jkudish)
 
 Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, test fakes with semantic assertions, and 15 AI tools for the Laravel AI SDK.
@@ -136,14 +136,14 @@ class User extends Authenticatable implements HasXCredentials
 Plume handles token refresh automatically on 401 responses. Persist refreshed tokens with a callback:
 
 ```php
-// In AppServiceProvider
-config(['x.token_refreshed' => function (array $credentials) {
+// In AppServiceProvider::register()
+$this->app->bind('x.token_refreshed', fn () => function (array $credentials) {
     auth()->user()->update([
         'x_access_token' => $credentials['access_token'],
         'x_refresh_token' => $credentials['refresh_token'],
         'x_token_expires_at' => $credentials['expires_at'],
     ]);
-}]);
+});
 ```
 
 ### Media Upload
