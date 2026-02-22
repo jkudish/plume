@@ -225,6 +225,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Run `composer test`, `composer phpstan`,
 
 Email joey@jkudish.com to report vulnerabilities. See [SECURITY.md](SECURITY.md).
 
+## Sponsoring
+
+If Plume saves you time, consider [sponsoring development](https://github.com/sponsors/jkudish).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

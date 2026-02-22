@@ -46,7 +46,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: ['8.2', '8.3', '8.4']
+        php: ['8.3', '8.4']
         laravel: ['11.*']
         testbench: ['9.*']
         include:
@@ -82,15 +82,21 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-php-${{ matrix.php }}-laravel-${{ matrix.laravel }}-composer-
 
+      - name: Remove laravel/ai on Laravel 11 (requires PHP 8.4 + Laravel 12)
+        if: matrix.laravel != '12.*'
+        run: composer remove laravel/ai --dev --no-interaction --no-update
+
       - name: Install dependencies
         run: |
           composer require "illuminate/support:${{ matrix.laravel }}" "illuminate/http:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --prefer-dist --no-interaction
 
       - name: Check code style
+        if: matrix.laravel == '12.*'
         run: composer lint:check
 
       - name: Run PHPStan
+        if: matrix.laravel == '12.*'
         run: composer phpstan
 
       - name: Run tests
