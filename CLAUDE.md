@@ -9,9 +9,7 @@ PHP 8.2+, Laravel 11/12, Pest v4, PHPStan level 8, Laravel Pint.
 ## Commands
 
 ```bash
-composer test              # Run unit + feature tests
-composer test:integration  # Run integration tests (requires API credentials)
-composer test:all          # Run all tests
+composer test              # Run the full test suite
 composer phpstan           # Static analysis (level 8)
 composer lint              # Fix code style with Pint
 composer lint:check        # Check code style without fixing
