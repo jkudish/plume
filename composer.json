@@ -1,0 +1,72 @@
+{
+    "name": "jkudish/plume",
+    "description": "X API v2 client for Laravel — facades, typed DTOs, test fakes, and user-scoped operations.",
+    "keywords": ["laravel", "twitter", "x", "api", "facade", "testing", "dto", "plume"],
+    "homepage": "https://github.com/jkudish/plume",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joey Kudish",
+            "email": "joey@jkudish.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jkudish/plume/issues",
+        "source": "https://github.com/jkudish/plume"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/jkudish"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0",
+        "laravel/ai": "^0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.0",
+        "orchestra/testbench": "^10.0",
+        "pestphp/pest": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plume\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plume\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest --exclude-group=integration",
+        "test:integration": "vendor/bin/pest --group=integration",
+        "test:all": "vendor/bin/pest",
+        "phpstan": "vendor/bin/phpstan analyse --memory-limit=1G",
+        "lint": "vendor/bin/pint",
+        "lint:check": "vendor/bin/pint --test"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plume\\XServiceProvider"
+            ],
+            "aliases": {
+                "X": "Plume\\Facades\\X"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

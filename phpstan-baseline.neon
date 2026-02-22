@@ -1,0 +1,1213 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method blockedUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method countAll\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method countRecent\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method createList\(\) parameter \#2 \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method createPost\(\) parameter \#2 \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method finalizeUpload\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method followers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method following\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method forUser\(\) parameter \#1 \$credentials with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getList\(\) parameter \#2 \$listFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#2 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#5 \$mediaFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#6 \$pollFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#7 \$placeFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#1 \$ids with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#2 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#5 \$mediaFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#6 \$pollFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#7 \$placeFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#1 \$ids with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#1 \$usernames with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#8 \$exclude with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method initChunkedUpload\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likingUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listFollowers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listMembers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#1 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#2 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#3 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#10 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#8 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#9 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mutedUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method ownedLists\(\) parameter \#4 \$listFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method retweetedBy\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method updateList\(\) parameter \#2 \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method uploadMedia\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method uploadStatus\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#8 \$exclude with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:blockedUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:bookmarks\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:followers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:following\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:homeTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:likedTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:likingUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listFollowers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listMembers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:mentionsTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:mutedUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:ownedLists\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:quoteTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:retweetedBy\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchAll\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchRecent\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:userTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/Facades/X.php
+
+		-
+			message: '#^Strict comparison using \!\=\= between string and null will always evaluate to true\.$#'
+			identifier: notIdentical.alwaysTrue
+			count: 1
+			path: src/Http/XHttpClient.php
+
+		-
+			message: '#^Parameter \#1 \$array \(list\<Plume\\Data\\User\>\) of array_values is already a list, call has no effect\.$#'
+			identifier: arrayValues.list
+			count: 1
+			path: src/Testing/FakeXApiProvider.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method blockedUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method bookmarks\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method countAll\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method countRecent\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method createList\(\) parameter \#2 \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method createPost\(\) parameter \#2 \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method finalizeUpload\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method followers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method following\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method forUser\(\) parameter \#1 \$credentials with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getList\(\) parameter \#2 \$listFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#2 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#5 \$mediaFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#6 \$pollFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPost\(\) parameter \#7 \$placeFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#1 \$ids with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#2 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#5 \$mediaFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#6 \$pollFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getPosts\(\) parameter \#7 \$placeFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUser\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUserByUsername\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#1 \$ids with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsers\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#1 \$usernames with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#2 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#3 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method getUsersByUsernames\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#8 \$exclude with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method homeTimeline\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method initChunkedUpload\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likedTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method likingUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listFollowers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listMembers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method listTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#1 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#2 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method me\(\) parameter \#3 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#10 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#8 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mentionsTimeline\(\) parameter \#9 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method mutedUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method ownedLists\(\) parameter \#4 \$listFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#4 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#5 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method quoteTweets\(\) parameter \#6 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method retweetedBy\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchAll\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchRecent\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method searchUsers\(\) parameter \#4 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method updateList\(\) parameter \#2 \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method uploadMedia\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method uploadStatus\(\) return type with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#10 \$expansions with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#11 \$userFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#8 \$exclude with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Class Plume\\Facades\\X has PHPDoc tag @method for method userTimeline\(\) parameter \#9 \$tweetFields with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:blockedUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:bookmarks\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:followers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:following\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:homeTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:likedTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:likingUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listFollowers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listMembers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:listTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:mentionsTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:mutedUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:ownedLists\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:quoteTweets\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:retweetedBy\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchAll\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchRecent\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:searchUsers\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^PHPDoc tag @method for method Plume\\Facades\\X\:\:userTimeline\(\) return type contains generic class Plume\\Data\\PaginatedResult but does not specify its types\: T$#'
+			identifier: missingType.generics
+			count: 1
+			path: src/src/Facades/X.php
+
+		-
+			message: '#^Strict comparison using \!\=\= between string and null will always evaluate to true\.$#'
+			identifier: notIdentical.alwaysTrue
+			count: 1
+			path: src/src/Http/XHttpClient.php
+
+		-
+			message: '#^Parameter \#1 \$array \(list\<Plume\\Data\\User\>\) of array_values is already a list, call has no effect\.$#'
+			identifier: arrayValues.list
+			count: 1
+			path: src/src/Testing/FakeXApiProvider.php
