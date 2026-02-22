@@ -24,14 +24,17 @@
     "require": {
         "php": "^8.2",
         "illuminate/http": "^11.0 || ^12.0",
-        "illuminate/support": "^11.0 || ^12.0",
-        "laravel/ai": "^0"
+        "illuminate/support": "^11.0 || ^12.0"
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
+        "laravel/ai": "^0",
         "laravel/pint": "^1.0",
-        "orchestra/testbench": "^10.0",
+        "orchestra/testbench": "^9.0 || ^10.0",
         "pestphp/pest": "^4.0"
+    },
+    "suggest": {
+        "laravel/ai": "Required for using the 15 built-in AI tools (requires PHP 8.4+)"
     },
     "autoload": {
         "psr-4": {
