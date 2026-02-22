@@ -2,6 +2,10 @@
 
 X (Twitter) API v2 client for Laravel.
 
+<p align="center">
+  <img src="art/banner.jpg" alt="Plume — X API v2 client for Laravel" />
+</p>
+
 ![Tests](https://github.com/jkudish/plume/actions/workflows/ci.yml/badge.svg)
 ![Packagist Version](https://img.shields.io/packagist/v/jkudish/plume)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/jkudish/plume)
@@ -9,7 +13,7 @@ X (Twitter) API v2 client for Laravel.
 ![License](https://img.shields.io/github/license/jkudish/plume)
 [![Sponsor](https://img.shields.io/badge/sponsor-♥-ea4aaa)](https://github.com/sponsors/jkudish)
 
-Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, test fakes with semantic assertions, and 15 AI tools for the Laravel AI SDK.
+Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, test fakes with semantic assertions, 41 artisan commands, and 15 AI tools for the Laravel AI SDK.
 
 ## Install
 
@@ -201,6 +205,42 @@ it('stubs return values', function () {
 
 **Semantic assertions:** `assertPostCreated`, `assertPostDeleted`, `assertLiked`, `assertRetweeted`, `assertBookmarked`, `assertFollowed`, `assertBlocked`, `assertMuted`, `assertRepliedTo`, `assertSearched`, `assertNothingPosted`, `assertNothingCalled`, `assertForUserCalled`.
 
+## Artisan Commands
+
+Plume ships 41 artisan commands for full CLI access to the X API. All commands support `--format=json` for machine-readable output where applicable.
+
+```bash
+# Your profile
+php artisan plume:me
+
+# Post a tweet
+php artisan plume:post "Hello from the CLI!"
+
+# Search
+php artisan plume:search "laravel" --max=20
+
+# Your home timeline
+php artisan plume:home --max=10 --format=json
+```
+
+| Category | Commands |
+|----------|----------|
+| **Profile** | `plume:me` |
+| **Posts** | `plume:post`, `plume:get-post`, `plume:delete-post` |
+| **Search** | `plume:search` |
+| **Timelines** | `plume:home`, `plume:timeline`, `plume:mentions` |
+| **Users** | `plume:user` |
+| **Likes** | `plume:like`, `plume:unlike`, `plume:likes` |
+| **Retweets** | `plume:retweet`, `plume:unretweet` |
+| **Follows** | `plume:follow`, `plume:unfollow`, `plume:followers`, `plume:following` |
+| **Bookmarks** | `plume:bookmark`, `plume:unbookmark`, `plume:bookmarks` |
+| **Blocks** | `plume:block`, `plume:unblock`, `plume:blocked` |
+| **Mutes** | `plume:mute`, `plume:unmute`, `plume:muted` |
+| **Media** | `plume:upload` |
+| **Lists** | `plume:lists`, `plume:lists:create`, `plume:lists:get`, `plume:lists:delete`, `plume:lists:update`, `plume:lists:members`, `plume:lists:add-member`, `plume:lists:remove-member`, `plume:lists:tweets`, `plume:lists:follow`, `plume:lists:unfollow`, `plume:lists:pin`, `plume:lists:unpin` |
+
+Commands that modify state (`plume:delete-post`, `plume:unfollow`, `plume:block`, `plume:unblock`, `plume:mute`, `plume:unmute`, `plume:lists:delete`, `plume:lists:remove-member`) prompt for confirmation. Pass `--force` to skip.
+
 ## AI Tools
 
 Plume ships 15 tools for the [Laravel AI SDK](https://github.com/laravel/ai) (requires PHP 8.4+). Install `laravel/ai` to use them:
@@ -228,7 +268,7 @@ Email joey@jkudish.com to report vulnerabilities. See [SECURITY.md](SECURITY.md)
 
 ## Sponsoring
 
-If Plume saves you time, consider [sponsoring development](https://github.com/sponsors/jkudish).
+If you find Plume useful, consider [becoming a sponsor](https://github.com/sponsors/jkudish).
 
 ## License
 

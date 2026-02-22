@@ -1,7 +1,7 @@
 {
     "name": "jkudish/plume",
     "description": "X API v2 client for Laravel — facades, typed DTOs, test fakes, and user-scoped operations.",
-    "keywords": ["laravel", "twitter", "x", "api", "facade", "testing", "dto", "plume"],
+    "keywords": ["laravel", "twitter", "x", "api", "facade", "testing", "dto", "plume", "cli", "artisan", "commands", "twitter-api-v2"],
     "homepage": "https://github.com/jkudish/plume",
     "license": "MIT",
     "type": "library",
