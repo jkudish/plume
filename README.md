@@ -13,7 +13,7 @@ X (Twitter) API v2 client for Laravel.
 ![License](https://img.shields.io/github/license/jkudish/plume)
 [![Sponsor](https://img.shields.io/badge/sponsor-♥-ea4aaa)](https://github.com/sponsors/jkudish)
 
-Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, test fakes with semantic assertions, 41 artisan commands, and 15 AI tools for the Laravel AI SDK.
+Plume wraps the entire X API v2 behind a clean Laravel facade. Typed DTOs, automatic pagination, user-scoped operations, OAuth token refresh, rate-limit handling, test fakes with semantic assertions, 41 artisan commands, and 15 AI tools for the Laravel AI SDK.
 
 ## Install
 
@@ -48,6 +48,24 @@ foreach ($results->data as $post) {
 $me = X::me();
 echo $me->publicMetrics->followersCount;
 ```
+
+## Why Plume?
+
+Most X API libraries for PHP are either stuck on API v1.1, aren't Laravel-native, or lack the DX features that make building with the API pleasant.
+
+| Feature | Plume | abraham/twitteroauth | noweh/twitter-api-v2-php |
+|---------|-------|---------------------|--------------------------|
+| X API v2 | Full coverage | Partial | Partial |
+| Laravel facades | Yes | No | No |
+| Typed DTOs | Active Record methods | Arrays | Arrays |
+| Test fakes | Semantic assertions | No | No |
+| OAuth auto-refresh | Built-in | Manual | Manual |
+| Artisan commands | 41 commands | No | No |
+| AI tools (Laravel AI SDK) | 15 tools | No | No |
+| Pagination | Automatic | Manual | Manual |
+| Rate-limit handling | Structured exceptions with retry timing | Manual | Manual |
+
+Plume is designed to be the canonical X API package for Laravel: typed, testable, and ready for both CLI and AI agent use.
 
 ## What's Covered
 
@@ -150,6 +168,26 @@ $this->app->bind('x.token_refreshed', fn () => function (array $credentials) {
 });
 ```
 
+### Rate-Limit Awareness
+
+Plume throws a structured `RateLimitException` on 429 responses with built-in retry timing:
+
+```php
+use Plume\Exceptions\RateLimitException;
+
+try {
+    $results = X::searchRecent('laravel');
+} catch (RateLimitException $e) {
+    $seconds = $e->retryAfterSeconds(); // seconds until rate limit resets
+    $timestamp = $e->resetTimestamp;     // unix timestamp of reset
+
+    sleep($seconds);
+    // retry...
+}
+```
+
+All exceptions include rate-limit headers (`x-rate-limit-limit`, `x-rate-limit-remaining`, `x-rate-limit-reset`) when available.
+
 ### Media Upload
 
 ```php
@@ -165,7 +203,7 @@ X::appendChunk($init['media_id'], 0, $chunkData);
 X::finalizeUpload($init['media_id']);
 ```
 
-## Testing
+### Test Fakes
 
 `X::fake()` swaps the client with an in-memory fake that records all calls:
 
