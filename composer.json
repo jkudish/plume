@@ -28,13 +28,16 @@
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
-        "laravel/ai": "^0",
+        "laravel/ai": "^1.0.1",
         "laravel/pint": "^1.0",
         "orchestra/testbench": "^9.0 || ^10.0 || ^11.0",
         "pestphp/pest": "^4.0"
     },
+    "conflict": {
+        "laravel/ai": "<1.0.1"
+    },
     "suggest": {
-        "laravel/ai": "Required for using the 15 built-in AI tools (requires PHP 8.4+)"
+        "laravel/ai": "Required for using the 15 built-in AI tools (1.0.1+, requires PHP 8.3+ and Laravel 12+)"
     },
     "autoload": {
         "psr-4": {
