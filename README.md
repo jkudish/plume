@@ -281,10 +281,10 @@ Commands that modify state (`plume:delete-post`, `plume:unfollow`, `plume:block`
 
 ## AI Tools
 
-Plume ships 15 tools for the [Laravel AI SDK](https://github.com/laravel/ai) (requires PHP 8.4+). Install `laravel/ai` to use them:
+Plume ships 15 tools for the [Laravel AI SDK](https://github.com/laravel/ai) 1.0.1+ (requires PHP 8.3+ and Laravel 12+). Install `laravel/ai` to use them:
 
 ```bash
-composer require laravel/ai
+composer require laravel/ai:^1.0.1
 ```
 
 Tools are tagged as `ai-tools` and implement `Laravel\Ai\Contracts\Tool`:
@@ -293,7 +293,7 @@ Tools are tagged as `ai-tools` and implement `Laravel\Ai\Contracts\Tool`:
 
 ## Requirements
 
-- PHP 8.2+ (AI tools require 8.4+)
+- PHP 8.2+ (AI tools require PHP 8.3+ and Laravel 12+)
 - Laravel 11 or 12
 
 ## Contributing
